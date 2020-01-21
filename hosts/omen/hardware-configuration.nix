@@ -117,4 +117,15 @@
       }
     ];
   };
+
+  ## Monitors
+  services.xserver.xrandrHeads = [
+    {
+      output = "DP-0";
+      primary = true;
+      monitorConfig = ''
+        DisplaySize 1920 1080
+      '';
+    }
+  ];
 }
