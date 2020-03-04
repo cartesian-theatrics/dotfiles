@@ -4,12 +4,12 @@
 {
   my = {
     packages = with pkgs; [
-      calibre # managing my ebooks
-      discord # chat
+      #calibre # managing my ebooks
+      #discord # chat
       evince # pdf reader
       sxiv # image viewer
-      gnucash
-      libreoffice-fresh
+      #gnucash
+      #libreoffice-fresh
       mpv # video player
       networkmanagerapplet
       networkmanager_dmenu
@@ -47,7 +47,7 @@
       dejavu_fonts
       fira-code
       fira-code-symbols
-      iosevka
+      #iosevka
       noto-fonts
       symbola
       font-awesome_5

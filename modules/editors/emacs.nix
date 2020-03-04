@@ -27,17 +27,17 @@
       # :tools lookup
       sqlite
       # :lang cc
-      ccls
+      #ccls
       # :lang javascript
       nodePackages.javascript-typescript-langserver
       nodePackages.vue-language-server
       # :lang latex & :lang org (latex previews)
-      texlive.combined.scheme-medium
+      #texlive.combined.scheme-medium
       # :lang rust
       rustfmt
       rls
       # Org, markdown, everything inbetween
-      pandoc
+      #pandoc
     ];
 
     env.PATH = [ "$HOME/.emacs.d/bin" ];

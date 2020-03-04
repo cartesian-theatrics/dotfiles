@@ -27,7 +27,7 @@
     '';
   };
 
-  fonts.fonts = [ pkgs.nerdfonts ];
+  #fonts.fonts = [ pkgs.nerdfonts ];
   my.packages = with pkgs; [
     sierra-gtk-theme
     paper-icon-theme # for rofi

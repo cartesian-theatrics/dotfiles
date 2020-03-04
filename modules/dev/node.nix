@@ -7,7 +7,7 @@
     packages = with pkgs; [
       nodejs-12_x
       python27 # For building node-gyp
-      solc
+      #solc
       (yarn.override { nodejs = pkgs.nodejs-12_x; })
     ];
 

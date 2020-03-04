@@ -2,7 +2,7 @@
 
 {
   my = {
-    packages = with pkgs; [ gnupg pinentry ];
+    packages = with pkgs; [ gnupg pinentry pinentry-gnome];
     env.GNUPGHOME = "$XDG_CONFIG_HOME/gnupg";
     init = ''mkdir -p "$GNUPGHOME" -m 700'';
   };
