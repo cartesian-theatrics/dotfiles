@@ -5,7 +5,7 @@
     ../personal.nix
     ./hardware-configuration.nix
     ## Desktop/shell environment
-    <modules/desktop/sway.nix>
+    <modules/desktop/bspwm.nix>
     ## Apps
     #<modules/browser/firefox.nix>
     #<modules/dev/nix.nix>
@@ -40,7 +40,7 @@
   environment.systemPackages = with pkgs; [
     acpi
     uBootPinebookProExternalFirst
-    firefox-wayland
+    firefox
   ];
 
   #

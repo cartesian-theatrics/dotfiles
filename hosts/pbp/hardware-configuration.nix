@@ -34,4 +34,13 @@
     fsType = "ext4";
     options = ["nofail"];
   };
+
+  services.xserver.xrandrHeads = [{
+    output = "eDP-1";
+    primary = true;
+    monitorConfig = ''
+      DisplaySize 1920 1080
+      Option "dpi" "110"
+    '';
+  }];
 }
